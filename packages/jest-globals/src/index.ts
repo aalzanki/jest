@@ -25,7 +25,3 @@ export declare const beforeAll: Global.GlobalAdditions['beforeAll'];
 export declare const beforeEach: Global.GlobalAdditions['beforeEach'];
 export declare const afterEach: Global.GlobalAdditions['afterEach'];
 export declare const afterAll: Global.GlobalAdditions['afterAll'];
-
-throw new Error(
-  'Do not import `@jest/globals` outside of the Jest test environment',
-);
